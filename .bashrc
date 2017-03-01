@@ -1,2 +1,2 @@
 #enable vi mode in bash
-set -o vi
+#set -o vi
