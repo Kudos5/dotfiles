@@ -1,5 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
     "editor.lineNumbers": "relative",
-    "vim.useSystemClipboard": true
+    "vim.useSystemClipboard": true,
+    "window.zoomLevel": 0
 }
