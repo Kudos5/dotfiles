@@ -185,3 +185,5 @@ exec i3-config-wizard
 
 # Custom shit
 exec --no-startup-id "setxkbmap -model pc105 -layout us,no -variant dvpnn, -option grp:alt_shift_toggle"
+# disable mouse acceleration
+exec xset m 00
