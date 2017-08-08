@@ -19,16 +19,14 @@ set number
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set relativenumber
 :color desert
 
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 
+"Nvim specific stuff
 if has('nvim')
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 endif
 
-"Nvim specific stuff
-if has('nvim')
-
-endif
