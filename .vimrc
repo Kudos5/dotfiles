@@ -1,10 +1,16 @@
 set nocompatible
 filetype indent plugin on
-syntax on
+syntax enable
 set hidden
 set wildmenu
+set lazyredraw
 set showcmd
+set showmatch
+set cursorline
 set hlsearch
+set incsearch
+" turn off search highlight
+nnoremap <leader><space> :nohlsearch<CR>
 set ignorecase
 set backspace=indent,eol,start
 set autoindent
@@ -16,14 +22,25 @@ set visualbell
 set t_vb=
 set cmdheight=2
 set number
-set shiftwidth=4
+set relativenumber
+"set shiftwidth=4
+set tabstop=4
 set softtabstop=4
 set expandtab
-set relativenumber
-:color desert
+colorscheme badwolf
 
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
+
+" move vertically by visual line
+nnoremap j gj
+nnoremap k gk
+
+" highlight last inserted text
+nnoremap gV `[v`]
+
+" ht is escape
+inoremap ht <esc>
 
 "Nvim specific stuff
 if has('nvim')
