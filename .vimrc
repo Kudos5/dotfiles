@@ -27,7 +27,8 @@ set shiftwidth=4
 set tabstop=4
 set softtabstop=4
 set expandtab
-colorscheme badwolf
+" colorscheme badwolf
+colorscheme desert
 
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
