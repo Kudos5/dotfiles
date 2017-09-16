@@ -41,7 +41,7 @@ nnoremap k gk
 nnoremap gV `[v`]
 
 " ht is escape
-inoremap ht <esc>
+" inoremap ht <esc>
 
 "Nvim specific stuff
 if has('nvim')
