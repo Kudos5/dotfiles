@@ -40,6 +40,10 @@ nnoremap k gk
 " highlight last inserted text
 nnoremap gV `[v`]
 
+nnoremap ,tn :tabNext<CR>
+nnoremap ,tp :tabprevious<CR>
+nnoremap ,tw :tabnew<CR>
+
 " ht is escape
 " inoremap ht <esc>
 
@@ -47,4 +51,7 @@ nnoremap gV `[v`]
 if has('nvim')
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 endif
+
+" Automatically change dir to current file
+set autochdir
 

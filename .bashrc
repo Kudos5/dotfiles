@@ -128,5 +128,5 @@ uv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35
 =00;36:*.spx=00;36:*.xspf=00;36:';
 export LS_COLORS
 
-# PS1='\e[37;1m\u@\e[35m\W\e[0m\$ ' # this will change your prompt format
-export DISPLAY=localhost:0.0
+PS1='\e[37;1m\u@\e[35m\w\e[0m\$ ' # this will change your prompt format
+export DISPLAY=localhost:10.0
