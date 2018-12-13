@@ -40,9 +40,11 @@ nnoremap k gk
 " highlight last inserted text
 nnoremap gV `[v`]
 
+
 nnoremap ,tn :tabnext<CR>
 nnoremap ,tp :tabprevious<CR>
 nnoremap ,tw :tabnew<CR>
+imap ,c <Esc>
 
 " ht is escape
 " inoremap ht <esc>
