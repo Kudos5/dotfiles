@@ -44,7 +44,8 @@ nnoremap gV `[v`]
 nnoremap ,tn :tabnext<CR>
 nnoremap ,tp :tabprevious<CR>
 nnoremap ,tw :tabnew<CR>
-imap ,c <Esc>
+nnoremap ,c <Esc>
+inoremap ,w :w<CR>
 
 " ht is escape
 " inoremap ht <esc>
