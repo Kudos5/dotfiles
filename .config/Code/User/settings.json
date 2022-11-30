@@ -1,5 +1,85 @@
-// Place your settings in this file to overwrite the default settings
 {
+    "keyboard.dispatch": "keyCode",
+    "vim.leader": ",",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "after": [
+                "<esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                ":w"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "commands": [
+                ":q"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t",
+                "n"
+            ],
+            "commands": [
+                ":tabnext"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t",
+                "p"
+            ],
+            "commands": [
+                ":tabprevious"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t",
+                "w"
+            ],
+            "commands": [
+                ":tabnew"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<C-w>",
+                "<C-l>"
+            ]
+        },
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "after": [
+                "<C-w>",
+                "<C-h>"
+            ]
+        }
+    ],
     "editor.lineNumbers": "relative",
     "vim.useSystemClipboard": true,
     "window.zoomLevel": 0
