@@ -200,7 +200,7 @@ bar {
 
 # scratchpad
 bindsym $mod+m move scratchpad
-bindsym $mod+o scratchpad show
+# bindsym $mod+o scratchpad show
 
 # custom window settings
 for_window [class="^Google-chrome$"] layout tabbed
