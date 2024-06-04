@@ -81,6 +81,8 @@
         }
     ],
     "editor.lineNumbers": "relative",
-    "vim.useSystemClipboard": true,
-    "window.zoomLevel": 0
+    "vim.useSystemClipboard": false,
+    "window.zoomLevel": 0,
+    "cmake.configureOnOpen": true,
+    "cmake.showOptionsMovedNotification": false
 }
