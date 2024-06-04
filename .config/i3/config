@@ -209,10 +209,10 @@ for_window [class="Gnome-terminal" window_role="tmux"] fullscreen disable
 # workspace assignment (use "xprop")
 # assign [class="Gnome-terminal"] 1
 assign [class="Code"] 2
-assign [class="^Google-chrome$" title="Email"] 3
-assign [class="^Google-chrome$" title="encoder and decoder cards usage"] 4
-assign [class="^Google-chrome$" title="Slack"] 4
-assign [class="^Google-chrome$"] 5
+# assign [class="^Google-chrome$" title="Email"] 3
+# assign [class="^Google-chrome$" title="encoder and decoder cards usage"] 4
+# assign [class="^Google-chrome$" title="Slack"] 4
+# assign [class="^Google-chrome$"] 5
 
 # autostart
 # exec_always --no-startup-id /usr/bin/setxkbmap -layout us,no -variant dvp, -option grp:ctrls_toggle
