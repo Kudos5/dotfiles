@@ -9,23 +9,11 @@
         "command": "-workbench.action.terminal.new"
     },
     {
-        "key": "ctrl+shift+f t",
-        "command": "workbench.action.terminal.focus"
-    },
-    {
         "key": "ctrl+shift+t t",
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
         "key": "ctrl+`",
         "command": "-workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "ctrl+shift+f e",
-        "command": "workbench.action.focusActiveEditorGroup"
-    },
-    {
-        "key": "ctrl+shift+f x",
-        "command": "workbench.files.action.focusFilesExplorer"
     }
 ]
