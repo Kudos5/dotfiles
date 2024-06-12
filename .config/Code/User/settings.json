@@ -84,5 +84,6 @@
     "vim.useSystemClipboard": false,
     "window.zoomLevel": 0,
     "cmake.configureOnOpen": true,
-    "cmake.showOptionsMovedNotification": false
+    "cmake.showOptionsMovedNotification": false,
+    "editor.minimap.enabled": false
 }
